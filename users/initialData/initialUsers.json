@@ -1,0 +1,74 @@
+[
+    {
+        "name": {
+            "first": "angel",
+            "middle": "",
+            "last": "malik"
+        },
+        "image": {
+            "url": "",
+            "alt": ""
+        },
+        "isBusiness": true,
+        "isAdmin": true,
+        "email": "admin@gmail.com",
+        "password": "Abc!123Abc",
+        "address": {
+            "street": "285 candy shop",
+            "city": "london",
+            "state": "angels",
+            "zip": 10001,
+            "country": "united kingdom",
+            "houseNumber": "28"
+        },
+        "phone": "0524569874"
+    },
+    {
+        "name": {
+            "first": "Michael",
+            "middle": "E.",
+            "last": "Johnson"
+        },
+        "image": {
+            "url": "",
+            "alt": ""
+        },
+        "isBusiness": true,
+        "isAdmin": false,
+        "email": "michael.johnson@gmail.com",
+        "password": "hashedPassword123@",
+        "address": {
+            "street": "789 Maple Street",
+            "city": "Tel Aviv",
+            "state": "",
+            "zip": 67890,
+            "country": "Israel",
+            "houseNumber": "789"
+        },
+        "phone": "054-567-8901"
+    },
+    {
+        "name": {
+            "first": "Sarah",
+            "middle": "L.",
+            "last": "Goldberg"
+        },
+        "image": {
+            "url": "",
+            "alt": ""
+        },
+        "isBusiness": false,
+        "isAdmin": false,
+        "email": "sarah.goldberg@bizmail.com",
+        "password": "hashedPassword789@",
+        "address": {
+            "street": "123 Startup Lane",
+            "city": "Haifa",
+            "state": "",
+            "zip": 54321,
+            "country": "Israel",
+            "houseNumber": "123"
+        },
+        "phone": "050-123-4567"
+    }
+]

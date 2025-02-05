@@ -1,0 +1,50 @@
+[
+    {
+        "title": "One Direction Fan Club",
+        "subtitle": "Celebrating the Legacy of 1D",
+        "description": "Join us to celebrate the music and memories of One Direction. Stay connected with updates, fan events, and exclusive content.",
+        "phone": "052-475-6981",
+        "email": "contact@onedirectionfans.com",
+        "address": {
+            "street": "1D Street",
+            "city": "London",
+            "zip": 10001,
+            "country": "UK",
+            "houseNumber": "5"
+        },
+        "bizNumber": 111111,
+        "userId": "67856b94adeb05127ca06080"
+    },
+    {
+        "title": "Friends Central Perk Club",
+        "subtitle": "The Ultimate Friends Fan Experience",
+        "description": "Relive the laughter, love, and iconic moments of Friends. Join us for trivia nights, themed events, and all things Central Perk.",
+        "phone": "054-475-6900",
+        "email": "fans@friendscentralperk.com",
+        "address": {
+            "street": "90 Bedford St",
+            "city": "New York",
+            "zip": 10014,
+            "country": "USA",
+            "houseNumber": "1A"
+        },
+        "bizNumber": 222222,
+        "userId": "67856b94adeb05127ca06080"
+    },
+    {
+        "title": "Italian Cuisine Paradise",
+        "subtitle": "Authentic Italian Dining Experience",
+        "description": "Experience the taste of Italy with our traditional recipes, fresh ingredients, and warm ambiance.",
+        "phone": "052-475-5555",
+        "email": "info@italiancuisine.com",
+        "address": {
+            "street": "Via Roma",
+            "city": "Florence",
+            "zip": 50123,
+            "country": "Italy",
+            "houseNumber": "28"
+        },
+        "bizNumber": 333333,
+        "userId": "67856b94adeb05127ca06080"
+    }
+]
