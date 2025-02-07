@@ -10,7 +10,6 @@ and users are blocked for 24hurs after 3 failed login attempts .
 ## Home Page
 You can access the HTML index file, which serves as an API overview page, 
 at: http://localhost:8080/
-
 This page includes a brief description of the available API endpoints for users and cards, along with links to the full documentation.
 
 ## Full API Documentation
