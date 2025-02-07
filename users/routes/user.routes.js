@@ -84,11 +84,11 @@ userRouter.delete("/:id", auth, isUser, async (req, res) => {
 /*needs authentication*/
 userRouter.put("/:id", auth, isRegisteredUser(false), async (req, res) => {
     try {
-        await updateUser(req.params.id, req.body);
-        return res.json(req.body);
+        const user = await updateUser(req.params.id, req.body);
+        return res.json(user);
     } catch (err) {
         res.status(400).send(err.message);
-    };
+    }
 });
 
 /* ----- PATCH request to change the authLevel ----- */

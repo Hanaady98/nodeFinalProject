@@ -61,9 +61,8 @@ cardRouter.put("/:id", auth, isRegisteredUser(true), async (req, res) => {
         return res.json(card);
     } catch (err) {
         res.status(400).send(err.emssage);
-    };
+    }
 });
-
 /* ----- DELETE card by Id request ----- */
 /* needs authentication */
 cardRouter.delete("/:id", auth, isUser, async (req, res) => {

@@ -115,17 +115,21 @@ const deleteUser = async (userId) => {
 /* ----- PUT user by Id request ----- */
 const updateUser = async (userId, userData) => {
     try {
-        const user = await User.findByIdAndUpdate(userId, userData);
+        const user = await User.findByIdAndUpdate(
+            userId,
+            { $set: userData },
+            { new: true, runValidators: true }
+        );
         if (!user) {
             throw new Error("User Was Not Found");
-        };
-        const returnUser = pick(user, ["_id", "name", "image", "isBusiness", "email", "address", "phone"]);
+        }
+        const returnUser = pick(user, ["_id", "name", "image", "isBusiness", "email", "address", "phone",
+        ]);
         return returnUser;
     } catch (err) {
         throw new Error(err.message);
     }
 };
-
 /* ----- PATCH request to change the authLevel ----- */
 const changeAuthLevel = async (userId) => {
     try {
