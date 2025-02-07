@@ -10,6 +10,7 @@ and users are blocked for 24hurs after 3 failed login attempts .
 ## Home Page
 You can access the HTML index file, which serves as an API overview page, 
 at: http://localhost:8080/
+
 This page includes a brief description of the available API endpoints for users and cards, along with links to the full documentation.
 
 ## Full API Documentation
@@ -77,6 +78,10 @@ Ensure you have the following installed:
 | DELETE | `/cards/:id` | Delete a card (Authenticated users) |
 | PATCH  | `/cards/:id` | Like/unlike a card (Authenticated users) |
 | PATCH  | `/cards/bizNumber/:id` | Change business number (Admin only) |
+
+## for put requests in postman:
+When updating a nested object (e.g., name), you must send the entire object, not just the changed field.
+(make sure if there are any required faileds)
 
 ## Bonus Features
 1. **Admin Business Number Change**: Admins can change a business number, provided it is not already assigned to another business.
