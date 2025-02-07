@@ -16,7 +16,7 @@ This page includes a brief description of the available API endpoints for users 
 ## Full API Documentation
 For a detailed breakdown of the API functionality, including request methods, parameters, and responses, refer to the following documentation:
 
-Users API:https://documenter.getpostman.com/view/40123570/2sAYQXns3r
+Users API: https://documenter.getpostman.com/view/40123570/2sAYQXns3r
 Cards API: https://documenter.getpostman.com/view/40123570/2sAYQXpYTY#intro
 These resources provide everything you need to understand and interact with the API.
 
