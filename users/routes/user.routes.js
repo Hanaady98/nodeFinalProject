@@ -42,7 +42,6 @@ userRouter.get("/:id", auth, isUser, async (req, res) => {
 /* ----- POST add new user request - (register) ----- */
 userRouter.post("/register", validate(RegisterSchema), async (req, res) => {
     try {
-        console.log("Raw request body:", req.body); // Log request body
         const user = await createNewUser(req.body);
         return res.json({ message: "new user created successfully", user });
     } catch (err) {
