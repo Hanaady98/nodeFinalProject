@@ -7,6 +7,8 @@ Additionally, the project implements three bonus features:
 an admin can change a business number, a file logger records errors 
 and users are blocked for 24hurs after 3 failed login attempts .
 
+## Admin's info can be found in the initial users data
+
 ## Home Page
 You can access the HTML index file, which serves as an API overview page, 
 at: http://localhost:8080/
