@@ -8,7 +8,7 @@ const RegisterSchema = Joi.object({
 
     password: Joi.string().ruleset.pattern(/((?=.*\d{1})(?=.*[A-Z]{1})(?=.*[a-z]{1})(?=.*[!@#$%^&*-]{1}).{8,20})/)
         .rule({
-            message: "password must be at least nine characters long and contain an uppercase letter, a lowercase letter, a number and one of the following characters !@#$%^&*-"
+            message: "password must be at least eight characters long and contain an uppercase letter, a lowercase letter, a number and one of the following characters !@#$%^&*-"
         }).required(),
 
     name: Joi.object().keys({
